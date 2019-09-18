@@ -1,0 +1,250 @@
+@import "config";
+
+// Utilities
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Varela", sans-serif;
+  background: $secondary-color;
+  min-width: 100%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  margin: 0 1rem;
+  line-height: 2rem;
+}
+
+.bg-light {
+  background: $light-color;
+}
+.add-box-shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.add-border-radius {
+  border-radius: 20px;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.container {
+  max-width: $website-width;
+  margin: auto;
+  scroll-behavior: smooth;
+  padding: 0 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+// Icon styling
+.c-sharp {
+  background: purple;
+  color: white;
+}
+.dotnet {
+  background: purple;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+.iconify {
+  width: 75px;
+  height: 75px;
+  margin: 1rem;
+}
+
+// Navigation Bar
+#nav {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  background: $dark-color;
+  justify-content: space-around;
+  align-items: center;
+  color: $light-color;
+  padding: 1rem;
+
+  .website-title {
+    color: $main-color;
+  }
+
+  ul {
+    display: flex;
+    li {
+      a {
+        text-transform: uppercase;
+        color: $light-color;
+        padding: 0.75rem;
+
+        transition: 0.5s ease-in-out;
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
+
+// Showcase
+#showcase {
+  height: 100vh;
+  background: url("../img//background6.jpg") no-repeat center center/cover;
+  position: relative;
+
+  .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  h1,
+  h3,
+  a {
+    color: $light-color;
+    z-index: 1;
+  }
+
+  a {
+    margin-top: 25%;
+    transition: 1s ease-in-out;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $dark-color;
+  opacity: 0.5;
+}
+
+// About section
+#about {
+  margin-top: 2rem;
+  display: flex;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  .about-content {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    p {
+      flex: 3;
+    }
+    img {
+      flex: 1;
+      width: auto;
+      height: 250px;
+      margin: 1rem;
+      border-radius: 50%;
+    }
+  }
+
+  .about-skills {
+
+    text-align: center;
+
+    h3 {
+      padding-top: 1rem;
+    }
+  }
+}
+
+// Projects section
+#projects {
+  margin-top: 0 auto;
+  h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    &-title {
+      margin: 1rem;
+      font-size: 1.5rem;
+    }
+
+    &-content {
+      display: flex;
+      margin: 1rem;
+
+      &-image {
+        border-radius: 5px;
+        height: 250px;
+        width: auto;
+      }
+    }
+
+    &-buttons {
+      margin: 3rem;
+
+      &-btn {
+        padding: 0.5rem 1rem;
+        border: 1px solid $dark-color;
+        color: $dark-color;
+        text-transform: uppercase;
+        transition: 0.5s ease-in-out;
+        margin-right: 2rem;
+
+        &:hover {
+          color: $light-color;
+          background: $main-color;
+          border: $main-color;
+        }
+      }
+      .redux-icon {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+// Footer
+#footer {
+  margin-top: 5rem;
+  padding: 1rem;
+  text-align: center;
+  background: $dark-color;
+  color: $light-color;
+
+  .footer-content {
+    margin: 0.5rem 0;
+  }
+  .footer-links {
+    padding: 1rem 0;
+
+    a {
+      color: $light-color;
+      margin: 0 1rem;
+    }
+  }
+}
+
+@import "media";

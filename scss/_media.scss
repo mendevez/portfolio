@@ -1,0 +1,113 @@
+
+// Smarthpones
+@media (max-width: 500px) {
+  #nav {
+    flex-direction: column;
+
+    ul {
+      flex-direction: column;
+      li {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  #showcase {
+    .showcase-content {
+      padding-top: 5rem;
+    }
+  }
+
+  #about {
+    .about-content {
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  #projects {
+    .project {
+      &-content {
+        display: block;
+
+        &-image {
+          height: 200px;
+          width: 100%;
+          margin-top: 1rem;
+        }
+      }
+      &-buttons {
+        display: flex;
+        flex-direction: column;
+
+        &-btn {
+          text-align: center;
+          padding: 0.5rem 3rem;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer-content {
+      h3 {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+// Tablets and smaller
+@media (max-width: 800px) {
+  #showcase {
+    height: 30rem;
+
+    .showcase-content {
+      padding-top: 5rem;
+    }
+  }
+
+  #about {
+    .about-content {
+      flex-direction: column;
+      padding-top: 1rem;
+      img {
+        width: 80%;
+      }
+    }
+  }
+  #projects {
+    .project {
+      &-content {
+        flex-direction: column;
+
+        &-image {
+          margin-top: 1rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Landscape
+@media (max-height: 580px) {
+  #projects {
+    .project {
+      &-content {
+        flex-direction: column;
+
+        &-image {
+          margin-top: 1rem;
+          height: 350px;
+          width: 80%;
+          align-self: center;
+        }
+      }
+    }
+  }
+}
