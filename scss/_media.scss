@@ -64,7 +64,9 @@
     .about-content {
       flex-direction: column;
       padding-top: 1rem;
-      
+      img {
+        width: 50%;
+      }
     }
   }
   #projects {
