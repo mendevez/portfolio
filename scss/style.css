@@ -346,9 +346,6 @@ ul {
             flex-direction: column;
     padding-top: 1rem;
   }
-  #about .about-content img {
-    width: 80%;
-  }
   #projects .project-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -362,6 +359,9 @@ ul {
 }
 
 @media (max-height: 580px) {
+  #about .about-content img {
+    width: 50%;
+  }
   #projects .project-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
