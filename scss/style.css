@@ -370,6 +370,9 @@ ul {
 }
 
 @media (max-height: 580px) {
+  #about .about-content img {
+    width: 250px;
+  }
   #projects .project-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
