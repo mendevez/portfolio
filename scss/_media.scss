@@ -17,16 +17,6 @@
     }
   }
 
-  #about {
-    .about-content {
-      flex-direction: column;
-
-      img {
-        width: 250px;
-      }
-    }
-  }
-
   #projects {
     .project {
       &-content {
@@ -95,15 +85,6 @@
 
 // Landscape
 @media (max-height: 580px) {
-  #about {
-    .about-content {
-      img {
-        width: 250px;
-        // height:350px;
-      }
-    }
-  }
-
   #projects {
     .project {
       &-content {
