@@ -1,4 +1,3 @@
-
 // Smarthpones
 @media (max-width: 500px) {
   #nav {
@@ -22,9 +21,9 @@
     .about-content {
       flex-direction: column;
 
-      img {
-        width: 100%;
-      }
+      // img {
+      //   width: 100%;
+      // }
     }
   }
 
@@ -35,7 +34,6 @@
 
         &-image {
           height: 200px;
-          width: 100%;
           margin-top: 1rem;
         }
       }
@@ -45,6 +43,7 @@
 
         &-btn {
           text-align: center;
+          font-size: 0.8rem;
           padding: 0.5rem 3rem;
           margin: 0.5rem;
         }

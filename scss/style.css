@@ -311,15 +311,11 @@ ul {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #about .about-content img {
-    width: 100%;
-  }
   #projects .project-content {
     display: block;
   }
   #projects .project-content-image {
     height: 200px;
-    width: 100%;
     margin-top: 1rem;
   }
   #projects .project-buttons {
@@ -333,6 +329,7 @@ ul {
   }
   #projects .project-buttons-btn {
     text-align: center;
+    font-size: 0.8rem;
     padding: 0.5rem 3rem;
     margin: 0.5rem;
   }
