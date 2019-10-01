@@ -361,7 +361,7 @@ ul {
   }
   #projects .project-content-image {
     margin-top: 1rem;
-    width: 80%;
+    max-width: 95%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
