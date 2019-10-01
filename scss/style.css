@@ -173,16 +173,7 @@ ul {
           align-items: center;
 }
 
-#about .about-content p {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-}
-
 #about .about-content img {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   width: auto;
   height: 250px;
   margin: 1rem;
@@ -378,7 +369,7 @@ ul {
 @media (max-height: 320px) {
   #about .about-content img {
     width: 50%;
-    height: 300px;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
