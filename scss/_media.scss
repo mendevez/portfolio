@@ -20,11 +20,10 @@
   #projects {
     .project {
       &-content {
-        display: block;
-
         &-image {
-          height: 200px;
           margin-top: 1rem;
+          width:80%;
+          align-self:center;
         }
       }
       &-buttons {
@@ -68,12 +67,13 @@
   }
   #projects {
     .project {
+      
       &-content {
         flex-direction: column;
 
         &-image {
           margin-top: 1rem;
-          width: 100%;
+          
         }
       }
     }
@@ -89,7 +89,6 @@
 
         &-image {
           margin-top: 1rem;
-          height: 350px;
           width: 80%;
           align-self: center;
         }

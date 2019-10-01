@@ -40,6 +40,7 @@ p {
   max-width: $website-width;
   margin: auto;
   scroll-behavior: smooth;
+  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -159,7 +160,7 @@ ul {
   }
 
   .about-skills {
-    text-align: center;
+    text-align: center; 
 
     h3 {
       padding-top: 1rem;
@@ -193,8 +194,8 @@ ul {
 
       &-image {
         border-radius: 5px;
-        height: 250px;
-        width: auto;
+        height:auto;
+        
       }
     }
 

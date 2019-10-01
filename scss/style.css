@@ -43,6 +43,7 @@ p {
   max-width: 1100px;
   margin: auto;
   scroll-behavior: smooth;
+  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -228,8 +229,7 @@ ul {
 
 #projects .project-content-image {
   border-radius: 5px;
-  height: 250px;
-  width: auto;
+  height: auto;
 }
 
 #projects .project-buttons {
@@ -296,12 +296,12 @@ ul {
   #showcase .showcase-content {
     padding-top: 5rem;
   }
-  #projects .project-content {
-    display: block;
-  }
   #projects .project-content-image {
-    height: 200px;
     margin-top: 1rem;
+    width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   #projects .project-buttons {
     display: -webkit-box;
@@ -345,7 +345,6 @@ ul {
   }
   #projects .project-content-image {
     margin-top: 1rem;
-    width: 100%;
   }
 }
 
@@ -358,7 +357,6 @@ ul {
   }
   #projects .project-content-image {
     margin-top: 1rem;
-    height: 350px;
     width: 80%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
