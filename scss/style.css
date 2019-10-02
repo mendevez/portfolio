@@ -187,10 +187,6 @@ ul {
   padding-top: 1rem;
 }
 
-#projects {
-  margin-top: 0 auto;
-}
-
 #projects h1 {
   font-size: 2.5rem;
   margin: 2rem 0;
@@ -223,6 +219,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   margin: 1rem;
+  font-size: 1.2rem;
 }
 
 #projects .project-content-image {
