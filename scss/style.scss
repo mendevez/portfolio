@@ -39,8 +39,6 @@ p {
 .container {
   max-width: $website-width;
   margin: auto;
-  scroll-behavior: smooth;
-  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -194,7 +192,7 @@ ul {
 
       &-image {
         border-radius: 5px;
-        height:auto;
+        height:250px;
         
       }
     }

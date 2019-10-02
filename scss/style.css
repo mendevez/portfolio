@@ -42,8 +42,6 @@ p {
 .container {
   max-width: 1100px;
   margin: auto;
-  scroll-behavior: smooth;
-  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -229,7 +227,7 @@ ul {
 
 #projects .project-content-image {
   border-radius: 5px;
-  height: auto;
+  height: 250px;
 }
 
 #projects .project-buttons {
@@ -361,7 +359,7 @@ ul {
   }
   #projects .project-content-image {
     margin-top: 1rem;
-    max-width: 95%;
+    width: 70%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
