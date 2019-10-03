@@ -61,12 +61,6 @@ ul {
   padding: 0.3rem;
 }
 
-.iconify {
-  width: 75px;
-  height: 75px;
-  margin: 1rem;
-}
-
 #nav {
   position: -webkit-sticky;
   position: sticky;
@@ -135,6 +129,7 @@ ul {
 
 #showcase a {
   margin-top: 25%;
+  font-size: 5rem;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
@@ -181,6 +176,11 @@ ul {
 
 #about .about-skills {
   text-align: center;
+}
+
+#about .about-skills-icons {
+  margin-top: 1rem;
+  font-size: 5rem;
 }
 
 #about .about-skills h3 {
@@ -265,6 +265,7 @@ ul {
 
 #footer .footer-links {
   padding: 1rem 0;
+  font-size: 3rem;
 }
 
 #footer .footer-links a {

@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link
       href="https://fonts.googleapis.com/css?family=Crimson+Pro|Varela&display=swap"
       rel="stylesheet"
     />
@@ -57,7 +51,13 @@
       <div class="showcase-content">
         <h3>Hi, I'm Mende.</h3>
         <h1>Software Developer.</h1>
-        <a href="#about"><i class="fas fa-3x fa-chevron-down"></i></a>
+        <a class="arrow-btn" href="#about"
+          ><span
+            class="iconify"
+            data-icon="ic:baseline-keyboard-arrow-down"
+            data-inline="false"
+          ></span
+        ></a>
       </div>
     </section>
     <!-- About -->
@@ -139,10 +139,10 @@
           <h1 class="project-title">Podcasts</h1>
           <div class="project-content">
             <p class="project-content-details">
-              Podcasts is a web application that I have built after learning
-              React. The goal was to develop a React application that will allow
-              the user to interact with data from a 3rd party api. It uses the
-              Listen Notes api to fetch data based on user input.<br />
+              Podcasts is a web application that I have built while learning
+              React. The goal was to develop a React application that will
+              allow the user to interact with data from a 3rd party api. It uses
+              the Listen Notes api to fetch data based on user input.<br />
               Built with <span class="text-bold">React</span> and
               <span class="text-bold">SASS</span> .
             </p>
@@ -209,7 +209,7 @@
             <p class="project-content-details">
               Core Fitness is a university group project. The team worked on
               documenting and developing a web application for a fictional
-              fitness centre. <br />
+              fitness centre. 
               Some of the features of this project are: shopping cart,
               user-based authorization and user and role management. <br />
 
@@ -252,10 +252,21 @@
           <a
             href="https://www.linkedin.com/in/mende-vezenkoski/"
             target="_blank"
-            ><i class="fab fa-2x fa-linkedin-in"></i
+            ><span
+              class="iconify"
+              data-icon="ant-design:linkedin-fill"
+              data-inline="false"
+            ></span
           ></a>
-          <a href="https://github.com/mendevez" target="_blank"
-            ><i class="fab fa-2x fa-github"></i
+          <a
+            class="footer-links-icon"
+            href="https://github.com/mendevez"
+            target="_blank"
+            ><span
+              class="iconify"
+              data-icon="ant-design:github-fill"
+              data-inline="false"
+            ></span
           ></a>
         </div>
       </div>
