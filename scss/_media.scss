@@ -14,7 +14,7 @@
   #showcase {
     height: 30rem;
     .showcase-content {
-      padding-top:5rem;
+      padding-top: 5rem;
     }
   }
 
@@ -61,26 +61,20 @@
 
 // Tablets and smaller
 @media (max-width: 800px) {
-
+}
+#about {
+  .about-content {
+    flex-direction: column;
   }
-  #about {
-    .about-content {
+  
+}
+#projects {
+  .project {
+    &-content {
       flex-direction: column;
-    }
-    .about-skills {
-      &-icons { 
-        font-size: 4rem;
-      }
-    }
-  }
-  #projects {
-    .project {
-      &-content {
-        flex-direction: column;
 
-        &-image {
-          margin-top: 1rem;
-        }
+      &-image {
+        margin-top: 1rem;
       }
     }
   }
