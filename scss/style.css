@@ -317,22 +317,22 @@ ul {
   }
 }
 
-#about .about-content {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#about #projects .project-content {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#about #projects .project-content-image {
-  margin-top: 1rem;
+@media (max-width: 800px) {
+  #about .about-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .project-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .project-content-image {
+    margin-top: 1rem;
+  }
 }
 
 @media (max-height: 580px) {
