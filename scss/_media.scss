@@ -13,7 +13,9 @@
 
   #showcase {
     height: 30rem;
-    
+    .showcase-content {
+      padding-top:5rem;
+    }
   }
 
   #about {
@@ -60,13 +62,13 @@
 // Tablets and smaller
 @media (max-width: 800px) {
 
-
+  }
   #about {
     .about-content {
       flex-direction: column;
     }
     .about-skills {
-      &-icons {
+      &-icons { 
         font-size: 4rem;
       }
     }

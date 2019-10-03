@@ -110,7 +110,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 5%;
 }
 
 #showcase .showcase-content .arrow-btn {
@@ -282,6 +282,9 @@ ul {
   }
   #showcase {
     height: 30rem;
+  }
+  #showcase .showcase-content {
+    padding-top: 5rem;
   }
   #about .about-skills-icons {
     font-size: 3.5rem;
