@@ -27,8 +27,7 @@
       &-content {
         &-image {
           margin-top: 1rem;
-          width: 95%;
-          height:150px;
+          height: 150px;
           align-self: center;
         }
       }
@@ -58,17 +57,14 @@
 // Tablets and smaller
 @media (max-width: 800px) {
   #showcase {
-    height: 30rem;
-
     .showcase-content {
-      padding-top: 5rem;
+      padding-top: 8rem;
     }
   }
 
   #about {
     .about-content {
       flex-direction: column;
-      padding-top: 1rem;
     }
   }
   #projects {
@@ -86,6 +82,12 @@
 
 // Landscape
 @media (max-height: 580px) {
+  #showcase {
+    .showcase-content {
+      padding-top: 3.5rem;
+    }
+  }
+
   #projects {
     .project {
       &-content {
@@ -98,17 +100,6 @@
           width: 95%;
           height: auto;
         }
-      }
-    }
-  }
-}
-
-@media (max-height: 320px) {
-  #about {
-    .about-content {
-      img {
-        width: 50%;
-        height: 200px;
       }
     }
   }

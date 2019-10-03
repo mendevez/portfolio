@@ -9,7 +9,6 @@
 body {
   font-family: "Varela", sans-serif;
   background: #f7f7f7;
-  min-width: 100%;
 }
 
 a {
@@ -18,12 +17,7 @@ a {
 }
 
 p {
-  margin: 0 1rem;
   line-height: 2rem;
-}
-
-.bg-light {
-  background: #ffffff;
 }
 
 .add-box-shadow {
@@ -42,6 +36,7 @@ p {
 .container {
   max-width: 1100px;
   margin: auto;
+  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -64,7 +59,6 @@ ul {
 #nav {
   position: -webkit-sticky;
   position: sticky;
-  width: 100%;
   top: 0;
   z-index: 2;
   display: -webkit-box;
@@ -76,7 +70,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
   padding: 1rem;
 }
 
@@ -168,23 +161,25 @@ ul {
 }
 
 #about .about-content img {
-  width: auto;
   height: 250px;
   margin: 1rem;
   border-radius: 50%;
+}
+
+#about .about-content p {
+  margin: 1rem;
 }
 
 #about .about-skills {
   text-align: center;
 }
 
-#about .about-skills-icons {
-  margin-top: 1rem;
-  font-size: 5rem;
+#about .about-skills-title {
+  padding: 1rem 0;
 }
 
-#about .about-skills h3 {
-  padding-top: 1rem;
+#about .about-skills-icons {
+  font-size: 5rem;
 }
 
 #projects h1 {
@@ -222,13 +217,17 @@ ul {
   font-size: 1.2rem;
 }
 
+#projects .project-content-details {
+  margin: 1rem;
+}
+
 #projects .project-content-image {
   border-radius: 5px;
   height: 250px;
 }
 
 #projects .project-buttons {
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 #projects .project-buttons-btn {
@@ -247,20 +246,12 @@ ul {
   border: #fc7703;
 }
 
-#projects .project-buttons .redux-icon {
-  font-size: 5rem;
-}
-
 #footer {
   margin-top: 5rem;
-  padding: 1rem;
+  padding-top: 1.5rem;
   text-align: center;
   background: #333;
   color: #ffffff;
-}
-
-#footer .footer-content {
-  margin: 0.5rem 0;
 }
 
 #footer .footer-links {
@@ -298,7 +289,6 @@ ul {
   }
   #projects .project-content-image {
     margin-top: 1rem;
-    width: 95%;
     height: 150px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -325,18 +315,14 @@ ul {
 }
 
 @media (max-width: 800px) {
-  #showcase {
-    height: 30rem;
-  }
   #showcase .showcase-content {
-    padding-top: 5rem;
+    padding-top: 8rem;
   }
   #about .about-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 1rem;
   }
   #projects .project-content {
     -webkit-box-orient: vertical;
@@ -350,6 +336,9 @@ ul {
 }
 
 @media (max-height: 580px) {
+  #showcase .showcase-content {
+    padding-top: 3.5rem;
+  }
   #projects .project-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -364,13 +353,6 @@ ul {
         align-self: center;
     width: 95%;
     height: auto;
-  }
-}
-
-@media (max-height: 320px) {
-  #about .about-content img {
-    width: 50%;
-    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
