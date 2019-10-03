@@ -110,7 +110,6 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding-top: 5%;
 }
 
 #showcase h1,
@@ -218,7 +217,7 @@ ul {
 }
 
 #projects .project-content-details {
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 #projects .project-content-image {
@@ -265,10 +264,6 @@ ul {
 }
 
 @media (max-width: 500px) {
-  .iconify {
-    width: 50px;
-    height: 50px;
-  }
   #nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -287,12 +282,16 @@ ul {
   #showcase {
     height: 30rem;
   }
-  #showcase .showcase-content {
-    padding-top: 5rem;
+  #showcase a {
+    font-size: 5rem;
+  }
+  #about .about-skills-icons {
+    font-size: 3.5rem;
   }
   #projects .project-content-image {
     margin-top: 1rem;
     height: 150px;
+    width: 95%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -319,13 +318,16 @@ ul {
 
 @media (max-width: 800px) {
   #showcase .showcase-content {
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
   #about .about-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #about .about-skills-icons {
+    font-size: 4rem;
   }
   #projects .project-content {
     -webkit-box-orient: vertical;

@@ -77,7 +77,7 @@ ul {
         color: $light-color;
         padding: 0.75rem;
         transition: 0.5s ease-in-out;
-        
+
         &:hover {
           color: $main-color;
         }
@@ -89,13 +89,13 @@ ul {
 // Showcase
 #showcase {
   height: 100vh;
-  background: url("../img//background6.jpg") no-repeat center center/cover; 
+  background: url("../img//background6.jpg") no-repeat center center/cover;
   position: relative;
   .showcase-content {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 5%;
+    // padding-top: 5%;
   }
 
   h1,
@@ -156,8 +156,6 @@ ul {
     &-icons {
       font-size: 5rem;
     }
-
-    
   }
 }
 
@@ -185,7 +183,7 @@ ul {
       margin: 1rem;
       font-size: 1.2rem;
       &-details {
-        margin:1rem;
+        margin: 0 1rem;
       }
       &-image {
         border-radius: 5px;
