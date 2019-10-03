@@ -324,14 +324,14 @@ ul {
           flex-direction: column;
 }
 
-#projects .project-content {
+#about #projects .project-content {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-#projects .project-content-image {
+#about #projects .project-content-image {
   margin-top: 1rem;
 }
 
