@@ -95,7 +95,16 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 25%;
+    .arrow-btn {
+      margin-top: 20%;
+      font-size: 5rem;
+      transition: 1s ease-in-out;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
   }
 
   h1,
@@ -103,16 +112,6 @@ ul {
   a {
     color: $light-color;
     z-index: 1;
-  }
-
-  a {
-    margin-top: 25%;
-    font-size: 5rem;
-    transition: 1s ease-in-out;
-
-    &:hover {
-      color: $main-color;
-    }
   }
 }
 

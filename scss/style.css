@@ -110,7 +110,18 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 25%;
+}
+
+#showcase .showcase-content .arrow-btn {
+  margin-top: 20%;
+  font-size: 5rem;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#showcase .showcase-content .arrow-btn:hover {
+  color: #fc7703;
 }
 
 #showcase h1,
@@ -118,17 +129,6 @@ ul {
 #showcase a {
   color: #ffffff;
   z-index: 1;
-}
-
-#showcase a {
-  margin-top: 25%;
-  font-size: 5rem;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-#showcase a:hover {
-  color: #fc7703;
 }
 
 .overlay {
@@ -283,9 +283,6 @@ ul {
   #showcase {
     height: 30rem;
   }
-  #showcase a {
-    font-size: 5rem;
-  }
   #about .about-skills-icons {
     font-size: 3.5rem;
   }
@@ -318,9 +315,6 @@ ul {
 }
 
 @media (max-width: 800px) {
-  #showcase .showcase-content {
-    padding-top: 12rem;
-  }
   #about .about-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
