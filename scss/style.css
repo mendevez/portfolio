@@ -110,6 +110,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  padding-top: 5%;
 }
 
 #showcase h1,
