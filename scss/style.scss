@@ -22,20 +22,23 @@ p {
 
 // Utilities
 .add-box-shadow {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
 .add-border-radius {
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .text-bold {
   font-weight: bold;
+}
+.bg-light {
+  background: $light-color;
 }
 
 .container {
   max-width: $website-width;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 2rem 4px 2rem;
 }
 
 ul {
@@ -45,11 +48,11 @@ ul {
 // Icon styling
 .c-sharp {
   background: purple;
-  color: white;
+  color: $light-color;
 }
 .dotnet {
   background: purple;
-  color: white;
+  color: $light-color;
   border-radius: 50%;
   padding: 0.3rem;
 }
@@ -160,6 +163,7 @@ ul {
 
 // Projects section
 #projects {
+  margin-bottom: 2rem;
   h1 {
     font-size: 2.5rem;
     margin: 2rem 0;
