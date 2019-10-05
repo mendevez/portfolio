@@ -349,4 +349,25 @@ ul {
     margin-top: 1rem;
   }
 }
+
+@media (max-height: 580px) {
+  #showcase .showcase-content {
+    padding-top: 3.5rem;
+  }
+  #projects .project-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1rem;
+  }
+  #projects .project-content-image {
+    margin-top: 1rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 95%;
+    height: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
