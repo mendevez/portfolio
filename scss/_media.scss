@@ -61,6 +61,13 @@
 
 // Tablets and smaller
 @media (max-width: 800px) {
+  #showcase {
+    height: 30rem;
+    .showcase-content {
+      padding-top: 5rem;
+    }
+  }
+
   #about {
     .about-content {
       flex-direction: column;

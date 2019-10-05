@@ -327,6 +327,12 @@ ul {
 }
 
 @media (max-width: 800px) {
+  #showcase {
+    height: 30rem;
+  }
+  #showcase .showcase-content {
+    padding-top: 5rem;
+  }
   #about .about-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
