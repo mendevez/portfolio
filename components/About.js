@@ -15,23 +15,28 @@ const About = () => {
           <img
             className={styles.about__content__image}
             src="/about.jpg"
-  
             alt="About Picture"
           />
           <div className={styles.about__content__text}>
             <h2 className={styles.about__content__title}>Who I am</h2>
-            <h3 className={styles.about__content__job}>
-              Software Developer based in Sydney
-            </h3>
             <p className={styles.about__content__description}>
-              I am a full-stack software developer specializing in JavaScript
-              technologies including React and Node. 
+              I am a full-stack software developer based in Sydney, Australia. I
+              primarily use JavaScript, React and Node to build my projects. I
+              am passionate about all things technology and I enjoy learning new
+              technologies to build my projects. Check out some of my projects I
+              have built using React, Node and ASP.NET.
             </p>
             <div className={styles.about__content__links}>
-              <a className={styles.about__content__link} href="https://www.linkedin.com/in/mende-vezenkoski/">
+              <a
+                className={styles.about__content__link}
+                href="https://www.linkedin.com/in/mende-vezenkoski/"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a className={styles.about__content__link} href="https://github.com/mendevez">
+              <a
+                className={styles.about__content__link}
+                href="https://github.com/mendevez"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
