@@ -1,0 +1,35 @@
+@import 'config';
+
+#showcase {
+  height: 100vh;
+  padding-top: 10rem;
+  position: relative;
+}
+
+.showcase__title {
+  font-size: 5rem;
+  z-index: 1;
+  color: $dark-color;
+}
+.showcase__title__highlight {
+  color: $main-color;
+}
+.showcase__title__job {
+  display: block;
+  background: $main-color;
+  color: $light-color;
+}
+
+
+@media screen and (max-width: 480px) {
+  .showcase__title {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .showcase__title {
+    font-size: 3.5rem;
+  }
+}

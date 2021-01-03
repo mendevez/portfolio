@@ -1,0 +1,71 @@
+@import 'config';
+
+#skills {
+  padding: 5rem 0;
+}
+.skills__content {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list__title {
+  color: $main-color;
+}
+.skills__list {
+  padding: 1.7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill__name {
+  background-color: $secondary-color;
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+
+  &:hover {
+    background: $main-color;
+    color: $light-color;
+  }
+}
+
+.skills__content__image {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  #skills {
+    padding: 3rem 0;
+  }
+  .skills__content {
+    flex-direction: column;
+  }
+  .list__title {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  .skills__list {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .skill__name {
+    font-size: 0.7rem;
+    margin-right: 0.3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__content {
+    flex-direction: column;
+  }
+  .list__title {
+    padding: 1.5rem 0;
+  }
+  .skills__list {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,69 @@
+@import 'config';
+
+html,
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  line-height: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,h2,h3 {
+  margin: 0;
+}
+
+// General
+
+.layout {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+}
+.container {
+  max-width: $website-width;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem 4px;
+}
+.container-showcase {
+  max-width: $showcase-width;
+  margin: auto;
+  padding: 0 3rem 4px;
+}
+.bottom__line {
+  height: 2px;
+  width: 5rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.section__title {
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}

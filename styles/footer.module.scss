@@ -1,0 +1,29 @@
+@import 'config';
+
+#footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1.5rem;
+  text-align: center;
+  background: $dark-color;
+  color: $light-color;
+}
+
+.footer__links {
+  padding: 1rem;
+}
+.footer__link {
+  color: $light-color;
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  #footer {
+    font-size: 0.7rem;
+  }
+  .footer__link {
+    font-size: 1.5rem;
+  }
+}
