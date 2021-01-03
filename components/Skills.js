@@ -1,5 +1,4 @@
 import styles from '../styles/skills.module.scss';
-import Image from 'next/image';
 import React from 'react';
 
 const Skills = () => {
@@ -37,12 +36,10 @@ const Skills = () => {
               <span className={styles.skill__name}>MongoDB</span>
             </div>
           </div>
-          <Image
+          <img
             src="/skills.jpg"
-            width={500}
-            height={350}
             className={styles.skills__content__image}
-          ></Image>
+          ></img>
         </div>
       </div>
     </section>
