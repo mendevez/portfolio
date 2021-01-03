@@ -12,7 +12,7 @@ const projects = () => {
         <div className={styles.projects__content}>
           <div className={styles.project}>
             <div className={styles.project__image}>
-              <img src="mpodcasts2.png" alt="Podcasts Project Image" />
+              <img src="mpodcasts2.jpg" alt="Podcasts Project Image" />
             </div>
             <div className={styles.project__text}>
               <div className={styles.project__text__wrap}>
@@ -35,7 +35,7 @@ const projects = () => {
           </div>
           <div className={styles.project}>
             <div className={styles.project__image}>
-              <img src="CFitness.jpg" alt="Core Fitness Project Image" />
+              <img src="CFitness.png" alt="Core Fitness Project Image" />
             </div>
             <div className={styles.project__text}>
               <div className={styles.project__text__wrap}>
