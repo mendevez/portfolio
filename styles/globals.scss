@@ -44,6 +44,7 @@ h1,h2,h3 {
 .container {
   max-width: $website-width;
   margin: auto;
+  padding: 0 1rem;
   overflow: hidden;
 }
 .container-showcase {
