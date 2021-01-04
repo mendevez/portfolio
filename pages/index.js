@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import Showcase from '../components/Showcase';
 import About from '../components/About';
