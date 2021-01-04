@@ -13,9 +13,6 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
-body {
-  overflow-x: hidden;
-}
 
 a {
   text-decoration: none;
@@ -53,6 +50,7 @@ h1,h2,h3 {
 .container-showcase {
   max-width: $showcase-width;
   margin: auto;
+  overflow: hidden;
   padding: 0 3rem 4px;
 }
 .bottom__line {
