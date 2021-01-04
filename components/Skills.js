@@ -4,12 +4,12 @@ import React from 'react';
 const Skills = () => {
   return (
     <section name="skills" id={styles.skills}>
-      <h2 data-aos="zoom-in-left" className="section__title">
+      <h2 data-aos="fade-in-out" className="section__title">
         Skills
       </h2>
-      <div data-aos="zoom-in-left" className="bottom__line"></div>
+      <div data-aos="fade-in-out" className="bottom__line"></div>
       <div className="container">
-        <div data-aos="zoom-out" className={styles.skills__content}>
+        <div data-aos="fade-in-out" className={styles.skills__content}>
           <div className={styles.skills__content__text}>
             <h2 className={styles.list__title}>Languages</h2>
             <div className={styles.skills__list}>

@@ -6,12 +6,12 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const About = () => {
   return (
     <section name="about" id={styles.about}>
-      <h2 data-aos="zoom-in-right" className="section__title">
+      <h2 data-aos="fade-in-out" className="section__title">
         About
       </h2>
-      <div data-aos="zoom-in-right" className="bottom__line"></div>
+      <div data-aos="fade-in-out" className="bottom__line"></div>
       <div className="container">
-        <div data-aos="zoom-out" className={styles.about__content}>
+        <div data-aos="fade-in-out" className={styles.about__content}>
           <img
             className={styles.about__content__image}
             src="/about.jpg"
