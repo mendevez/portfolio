@@ -11,10 +11,18 @@ const Footer = () => {
           <h3>Copyright &copy; {new Date().getFullYear()} Mende Vezenkoski</h3>
         </div>
         <div className={styles.footer__links}>
-          <a className={styles.footer__link} href="https://www.linkedin.com/in/mende-vezenkoski/">
+          <a
+            className={styles.footer__link}
+            target="_blank"
+            href="https://www.linkedin.com/in/mende-vezenkoski/"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className={styles.footer__link} href="https://github.com/mendevez">
+          <a
+            className={styles.footer__link}
+            target="_blank"
+            href="https://github.com/mendevez"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
