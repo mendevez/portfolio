@@ -21,10 +21,11 @@ const About = () => {
             <h2 className={styles.about__content__title}>Who I am</h2>
             <p className={styles.about__content__description}>
               I am a full-stack software developer based in Sydney, Australia. I
-              primarily use JavaScript, React and Node to build my projects. I
               am passionate about all things technology and I enjoy learning new
-              technologies to build my projects. Check out some of my projects I
-              have built using React, Node and ASP.NET.
+              technologies to build my projects. I primarily use JavaScript,
+              React and Node however, I am highly adaptable and I enjoy learning
+              new things . Check out some of my projects I have built using
+              React, Node and ASP.NET MVC.
             </p>
             <div className={styles.about__content__links}>
               <a
