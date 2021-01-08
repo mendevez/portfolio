@@ -15,7 +15,7 @@
   color: $main-color;
 }
 .skills__list {
-  padding: 1.7rem 0;
+  padding: 1.5rem 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -51,6 +51,7 @@
     text-align: center;
   }
   .skills__list {
+    padding: 1.7rem 0;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
