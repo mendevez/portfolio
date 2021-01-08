@@ -3,7 +3,7 @@ import styles from '../styles/showcase.module.scss';
 
 const Showcase = () => {
   return (
-    <section name="showcase" data-aos="fade-in-out" id={styles.showcase}>
+    <section name="showcase" id={styles.showcase}>
       <div className={styles.showcase__content}>
         <div className="container-showcase">
           <h1 className={styles.showcase__title}>
