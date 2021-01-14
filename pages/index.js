@@ -11,7 +11,7 @@ import Head from 'next/head';
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    // Aos.init({ duration: 1500 });
   });
   return (
     <Layout>
